@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <aside>
+    <a href="#"><img src="/logo.jpg" class="logo"></a>
+    <nav>
+      <a href="dashboard" class="ad selected">
+        <div class="icon"><i class="fa-solid fa-chart-line" style="margin: 5px;"></i></div>
+        <div class="text">Dashboard</div>
+      </a>
+      <div class="hoverable">
+        <a href="products" class="ad">
+          <div class="icon"><i style="margin: 5px;" class="fa-solid fa-file"></i></div>
+          <div class="text">Products<i class="fas fa-caret-right" style="position: relative; left: 80px;"></i></div>
+        </a>
+        <div class="dropdown">
+          <a href="#">List Products</a>
+          <a href="#">Create Product</a>
+          <a href="#">Products Categories</a>
+        </div>
+      </div>
+      <div class="hoverable">
+        <a href="orders" class="ad">
+          <div class="icon"><i class="fa-solid fa-cart-shopping" style="margin: 5px;"></i></div>
+          <div class="text">Orders<i class="fas fa-caret-right" style="position: relative; left: 90px;"></i></div>
+        </a>
+        <div class="dropdown">
+          <a href="#">List Order</a>
+          <a href="#">Create Order</a>
+          <a href="#">Manage Status</a>
+        </div>
+      </div>
+      <a href="#clients" class="ad">
+        <div class="icon"><i class="fa-solid fa-user-tie" style="margin: 5px;"></i></div>
+        <div class="text">Clients</div>
+      </a>
+      <a href="#users" class="ad">
+        <div class="icon"><i class="fa-solid fa-user" style="margin: 5px;"></i></div>
+        <div class="text">Users</div>
+      </a>
+      <a href="#settings" class="ad">
+        <div class="icon"><i class="fa-solid fa-gear" style="margin: 5px;"></i></div>
+        <div class="text">Settings</div>
+      </a>
+    </nav>
+  </aside>
+  <header>
+    <input class="search" type="search" placeholder="Search pruduct, Client..." autocomplete="on">
+    <div class="profile">
+      <div class="s"><a href="#"><i class="fas fa-user-cog"></i>Setting</a></div>
+      <div class="i"><a href="#"><img
+            src="/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile-people-diverse-face-for-social-network-or-web-vector.jpg"
+            class="profileimg">profile</a></div>
+    </div>
+  </header>
+  <main>
+    <div class="section1">
+      <h3>Statistique</h3>
+      <div class="carts">
+        <div class="cart bleu1">
+          <div class="imag"><img src="/cloud_symbol2.webp"></div>
+          <div class="info">
+            <h3 style="color: #fff;">20.100</h3>
+            <p style="color: #fff;">Selled Product</p>
+          </div>
+        </div>
+        <div class="cart bleu2">
+          <div class="icon"><i style="color: #fff;" class="fa-solid fa-cart-shopping"></i></div>
+          <div class="info">
+            <h3 style="color: #fff;">490</h3>
+            <p style="color: #fff;">Orders</p>
+          </div>
+        </div>
+        <div class="cart gray">
+          <div class="icon"><i class="fa-regular fa-user"></i></div>
+          <div class="info">
+            <h3>235</h3>
+            <p>Selled Product</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+      <h3>Latest Order</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Client</th>
+            <th>Count Product</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>234</td>
+            <td>Amine Saidi</td>
+            <td>3Product</td>
+            <td>450 MAD</td>
+            <div class="pencil">
+              <td><a href="#" style="color:rgb(255, 115, 0); text-decoration: none;"><i class="fa-solid fa-pencil"
+                    style="margin: 2px;"></i>Edit</a></td>
+            </div>
+            <td align="right"><a href="#" style="text-decoration: none; color: rgb(255, 30, 0);"><i style="margin: 3px;"
+                  class="fa-solid fa-trash"></i>Delete</a></td>
+          </tr>
+          <tr>
+            <td>234</td>
+            <td>Amine Saidi</td>
+            <td>3Product</td>
+            <td>450 MAD</td>
+            <div class="pencil">
+              <td><a href="#" style="color: rgb(255, 115, 0); text-decoration: none;"><i class="fa-solid fa-pencil"
+                    style="margin: 2px;"></i>Edit</a></td>
+            </div>
+            <td align="right"><a href="#" style="text-decoration: none; color: rgb(255, 30, 0);"><i style="margin: 3px;"
+                  class="fa-solid fa-trash"></i>Delete</a></td>
+          </tr>
+          <tr>
+            <td>234</td>
+            <td>Amine Saidi</td>
+            <td>3Product</td>
+            <td>450 MAD</td>
+            <div class="pencil">
+              <td><a href="#" style="color:rgb(255, 115, 0); text-decoration: none;"><i class="fa-solid fa-pencil"
+                    style="margin: 2px;"></i>Edit</a></td>
+            </div>
+            <td align="right"><a href="#" style="text-decoration: none; color: rgb(255, 30, 0);"><i style="margin: 3px;"
+                  class="fa-solid fa-trash"></i>Delete</a></td>
+          </tr>
+        <tfoot>
+          <tr>
+            <td>234</td>
+            <td>Amine Saidi</td>
+            <td>3Product</td>
+            <td>450 MAD</td>
+            <td><a href="#" style="color: rgb(255, 115, 0); text-decoration: none;"><i class="fa-solid fa-pencil"
+                  style="margin: 2px;"></i>Edit</a></td>
+            <td align="right"><a href="#" style="text-decoration: none; color: rgb(255, 30, 0);"><i style="margin: 3px;"
+                  class="fa-solid fa-trash"></i>Delete</a></td>
+          </tr>
+        </tfoot>
+        </tbody>
+      </table>
+    </div>
+    <div class="section3">
+      <table>
+        <h3>Latest Product</h3>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Stock</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>34</td>
+            <td>PC portable</td>
+            <td>4500 MAD</td>
+            <td>20 units</td>
+            <div class="pencil">
+              <td><a href="#" style="color: orangered; text-decoration: none;"><i class="fa-solid fa-pencil"
+                    style="margin: 2px;"></i>Edit</a></td>
+            </div>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>PC portable</td>
+            <td>4500 MAD</td>
+            <td>20 units</td>
+            <div class="pencil">
+              <td><a href="#" style="color: orangered; text-decoration: none;"><i class="fa-solid fa-pencil"
+                    style="margin: 2px;"></i>Edit</a></td>
+            </div>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>PC portable</td>
+            <td>4500 MAD</td>
+            <td>20 units</td>
+            <div class="pencil">
+              <td><a href="#" style="color: orangered; text-decoration: none;"><i class="fa-solid fa-pencil"
+                    style="margin: 2px;"></i>Edit</a></td>
+            </div>
+          </tr>
+        <tfoot>
+          <tr>
+            <td>34</td>
+            <td>PC portable</td>
+            <td>4500 MAD</td>
+            <td>20 units</td>
+            <td><a href="#" style="color: orangered; text-decoration: none;"><i class="fa-solid fa-pencil"
+                  style="margin: 2px;"></i>Edit</a></td>
+          </tr>
+        </tfoot>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+
+</html>
