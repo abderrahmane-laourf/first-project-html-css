@@ -1,6 +1,5 @@
 This project is a fully interactive dashboard implemented using HTML for structure and CSS for styling, resulting in a visually appealing and highly functional interface. Key features include:
 
-
 Navigation: A prominent navigation bar (🔗) provides clear and intuitive site navigation.
 
 Data Display: Data cards (📋) are employed to effectively showcase key metrics and summaries, providing at-a-glance insights.
