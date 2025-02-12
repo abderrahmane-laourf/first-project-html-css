@@ -3,7 +3,6 @@ This project is a fully interactive dashboard implemented using HTML for structu
 
 Navigation: A prominent navigation bar (🔗) provides clear and intuitive site navigation.
 
-
 Data Display: Data cards (📋) are employed to effectively showcase key metrics and summaries, providing at-a-glance insights.
 
 Visualization Ready: Strategic placeholders are integrated for the future implementation of charts and graphs (📈), making it ready for data visualization components.
